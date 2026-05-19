@@ -1,12 +1,6 @@
 # 🫀 Predictive Cardiovascular Risk Engine
 > High-Dimensional Clinical Data Engineering & Machine Learning Pipeline for 10-Year CHD Risk Stratification.
 
-<p align="left">
-  <img src="https://img.shields.shields.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"/>
-  <img src="https://img.shields.shields.shields.io/badge/Framework-Scikit--Learn-orange.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Framework"/>
-  <img src="https://img.shields.shields.shields.io/badge/Data_Ops-Pandas%20%7C%20NumPy-darkgreen.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Data Ops"/>
-  <img src="https://img.shields.shields.shields.io/badge/Pipeline-Verified-success.svg?style=for-the-badge" alt="Pipeline"/>
-</p>
 
 The **Predictive Cardiovascular Risk Engine** is an enterprise-grade data engineering and predictive modeling framework designed to isolate, preprocess, and optimize patient clinical metrics from the longitudinal Framingham dataset. Its core objective is to deliver structurally pristine data arrays optimized for training high-sensitivity classifiers predicting the 10-year risk of Coronary Heart Disease (CHD).
 
