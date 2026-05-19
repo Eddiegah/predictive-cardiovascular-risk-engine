@@ -1,23 +1,25 @@
 # 🫀 Predictive Cardiovascular Risk Engine
+> High-Dimensional Clinical Data Engineering & Machine Learning Pipeline for 10-Year CHD Risk Stratification.
 
-<p id="badges">
+<p align="left">
   <img src="https://img.shields.shields.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"/>
-  <img src="https://img.shields.shields.shields.shields.shields.io/badge/Framework-Scikit--Learn-orange.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Framework"/>
-  <img src="https://img.shields.shields.shields.shields.shields.io/badge/Pipeline-Verified-success.svg?style=for-the-badge" alt="Pipeline"/>
+  <img src="https://img.shields.shields.shields.io/badge/Framework-Scikit--Learn-orange.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Framework"/>
+  <img src="https://img.shields.shields.shields.io/badge/Data_Ops-Pandas%20%7C%20NumPy-darkgreen.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Data Ops"/>
+  <img src="https://img.shields.shields.shields.io/badge/Pipeline-Verified-success.svg?style=for-the-badge" alt="Pipeline"/>
 </p>
 
-Custom Data Engineering Pipeline & High-Dimensional Predictive Modeling designed to evaluate, preprocess, and optimize patient clinical metrics from the structural Framingham dataset for predicting the 10-year risk of coronary heart disease (CHD).
+The **Predictive Cardiovascular Risk Engine** is an enterprise-grade data engineering and predictive modeling framework designed to isolate, preprocess, and optimize patient clinical metrics from the longitudinal Framingham dataset. Its core objective is to deliver structurally pristine data arrays optimized for training high-sensitivity classifiers predicting the 10-year risk of Coronary Heart Disease (CHD).
 
 ---
 
-## 🛠️ Core Architecture & High-End Technical Highlights
+## 🛠️ Core Architecture & Technical Highlights
 
-This repository isolates the foundational data engineering layer required to feed robust machine learning classification algorithms. It implements strict data transformations to ensure maximum algorithmic compatibility and computational efficiency.
+This system isolates the foundational data engineering layer required to feed robust machine learning classification algorithms, implementing strict mathematical and structural transformations to ensure maximum algorithmic compatibility and computational efficiency.
 
-* **Deterministic Feature Pruning:** Systematic elimination of low-variance/non-predictive parameters (`education`) to minimize multi-collinearity and optimize model generalization.
-* **Structural Feature Re-mapping:** Vectorizing categorical structural variables (`male` $\rightarrow$ `Sex_male`) to establish algorithmic compatibility with advanced distance-based and gradient-boosted classifiers.
-* **Stochastic Noise Mitigation:** Implementation of a rigorous row-wise missingness exclusion strategy (`dropna`) to preserve original statistical distribution profiles while eliminating corrupt data points.
-* **Exploratory Data Analysis (EDA):** Deep-dive statistical profiling leveraging matrix correlations, feature variance testing, and covariate tracking via optimized Seaborn and Matplotlib pipelines.
+* **Deterministic Feature Pruning:** Systematic elimination of low-variance/sociodemographic parameters (`education`) to minimize multi-collinearity, prevent overfitting, and optimize model generalization.
+* **Structural Feature Re-mapping:** Vectorizing categorical structural variables (`male` $\rightarrow$ `Sex_male`) to establish seamless algorithmic compatibility with advanced distance-based and gradient-boosted classifiers.
+* **Stochastic Noise Mitigation:** Implementation of a rigorous row-wise missingness exclusion strategy (`dropna`) to preserve original statistical distribution profiles while eliminating corrupt data vectors.
+* **Statistical Profiling (EDA):** Deep-dive exploratory pipelines leveraging matrix correlations, feature variance testing, and covariate tracking via optimized Seaborn and Matplotlib visualization engines.
 
 ---
 
@@ -35,7 +37,7 @@ This repository isolates the foundational data engineering layer required to fee
                ▼
 ┌──────────────────────────────────────────────┐
 │         Structural Realignment Layer         │
-│  • Binary Vectorization: male -> Sex_male     │
+│  • Binary Vectorization: male -> Sex_male    │
 └──────────────────────────────────────────────┘
                │
                ▼
