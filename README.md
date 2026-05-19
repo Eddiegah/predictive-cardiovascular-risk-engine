@@ -1,11 +1,10 @@
 # 🫀 Predictive Cardiovascular Risk Engine
-Custom Data Engineering Pipeline & High-Dimensional Predictive Modeling
 
-[![Python Version](https://img.shields.shields.shields.shields.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Framework](https://img.shields.shields.shields.shields.shields.io/badge/Framework-Scikit--Learn-orange.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Pipeline](https://img.shields.shields.shields.shields.shields.io/badge/Pipeline-Verified-success.svg?style=for-the-badge)]()
+![Python Version](https://img.shields.shields.shields.shields.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)
+![Framework](https://img.shields.shields.shields.shields.shields.io/badge/Framework-Scikit--Learn-orange.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pipeline](https://img.shields.shields.shields.shields.shields.io/badge/Pipeline-Verified-success.svg?style=for-the-badge)
 
-An advanced, production-ready machine learning data pipeline designed to ingest clinical patient metrics from the structural Framingham dataset and optimize features for predicting the 10-year risk of coronary heart disease (CHD). 
+Custom Data Engineering Pipeline & High-Dimensional Predictive Modeling designed to evaluate, preprocess, and optimize patient clinical metrics from the structural Framingham dataset for predicting the 10-year risk of coronary heart disease (CHD).
 
 ---
 
