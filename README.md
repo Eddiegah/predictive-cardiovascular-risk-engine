@@ -35,7 +35,7 @@ This repository isolates the foundational data engineering layer required to fee
           │
           ▼
 [Downstream Modeling]      ──► Engine Ready for Training (RFC, XGBoost, LogReg)
-git clone [https://github.com/YOUR_GITHUB_USERNAME/predictive-cardiovascular-risk-engine.git](https://github.com/YOUR_GITHUB_USERNAME/predictive-cardiovascular-risk-engine.git)
+git clone [https://github.com/Eddiegah/predictive-cardiovascular-risk-engine.git](https://github.com/Eddiegah/predictive-cardiovascular-risk-engine.git)
 cd predictive-cardiovascular-risk-engine
 pip install -r requirements.txt
 jupyter notebook Heart_Disease_Detection.ipynb
