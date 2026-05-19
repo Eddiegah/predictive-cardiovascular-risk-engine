@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+chore: implement rigorous git exclusions as the commit message
