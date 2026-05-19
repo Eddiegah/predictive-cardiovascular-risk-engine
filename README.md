@@ -1,42 +1,50 @@
 # 🫀 Predictive Cardiovascular Risk Engine
+Custom Data Engineering Pipeline & High-Dimensional Predictive Modeling
 
-[![Python Version](https://img.shields.shields.shields.shields.shields.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Framework](https://img.shields.shields.shields.shields.shields.shields.io/badge/Framework-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
-[![Pipeline](https://img.shields.shields.shields.shields.shields.shields.io/badge/Pipeline-Verified-success.svg)]()
+[![Python Version](https://img.shields.shields.shields.shields.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Framework](https://img.shields.shields.shields.shields.shields.io/badge/Framework-Scikit--Learn-orange.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pipeline](https://img.shields.shields.shields.shields.shields.io/badge/Pipeline-Verified-success.svg?style=for-the-badge)]()
 
-A high-performance, end-to-end data engineering and predictive modeling architecture designed to evaluate, preprocess, and predict the 10-year risk of coronary heart disease (CHD) utilizing clinical patient metrics from the structural Framingham dataset.
+An advanced, production-ready machine learning data pipeline designed to ingest clinical patient metrics from the structural Framingham dataset and optimize features for predicting the 10-year risk of coronary heart disease (CHD). 
 
 ---
 
-## 🛠️ Core Architecture & Technical Highlights
+## 🛠️ Core Architecture & High-End Technical Highlights
 
-This repository isolates the foundational data engineering layer required to feed robust machine learning classification algorithms. 
+This repository isolates the foundational data engineering layer required to feed robust machine learning classification algorithms. It implements strict data transformations to ensure maximum algorithmic compatibility and computational efficiency.
 
-* **Deterministic Feature Pruning:** Systematic elimination of low-variance/non-predictive parameters (`education`) to minimize multi-collinearity and optimize computational efficiency.
+* **Deterministic Feature Pruning:** Systematic elimination of low-variance/non-predictive parameters (`education`) to minimize multi-collinearity and optimize model generalization.
 * **Structural Feature Re-mapping:** Vectorizing categorical structural variables (`male` $\rightarrow$ `Sex_male`) to establish algorithmic compatibility with advanced distance-based and gradient-boosted classifiers.
-* **Missing Data Mitigation:** Implementation of a rigorous row-wise missingness exclusion strategy (`dropna`) to preserve statistical distribution profiles while eliminating stochastic noise.
-* **Statistical Visualization:** Deep-dive exploratory data analysis (EDA) leveraging matrix correlations, feature distributions, and variance testing via optimized Seaborn pipelines.
+* **Stochastic Noise Mitigation:** Implementation of a rigorous row-wise missingness exclusion strategy (`dropna`) to preserve original statistical distribution profiles while eliminating corrupt data points.
+* **Exploratory Data Analysis (EDA):** Deep-dive statistical profiling leveraging matrix correlations, feature variance testing, and covariate tracking via optimized Seaborn and Matplotlib pipelines.
 
 ---
 
-## 📊 Pipeline Blueprint
+## 📊 End-to-End Pipeline Blueprint
 
 ```text
-[Raw Dataset: framingham.csv] 
-          │
-          ▼
-[Feature Engineering Layer] ──► Drop 'education' (Dimensionality Reduction)
-          │
-          ▼
-[Structural Realignment]   ──► Map 'male' to 'Sex_male' (Binary Vectorization)
-          │
-          ▼
-[Stochastic Cleansing]     ──► Row-wise NA Elimination (Variance Preservation)
-          │
-          ▼
-[Downstream Modeling]      ──► Engine Ready for Training (RFC, XGBoost, LogReg)
-git clone [https://github.com/Eddiegah/predictive-cardiovascular-risk-engine.git](https://github.com/Eddiegah/predictive-cardiovascular-risk-engine.git)
-cd predictive-cardiovascular-risk-engine
-pip install -r requirements.txt
-jupyter notebook Heart_Disease_Detection.ipynb
-'docs:upgrade docomentation to enterprise standard' as the commit message
+[ Raw Dataset: framingham.csv ]
+               │
+               ▼
+┌──────────────────────────────────────────────┐
+│          Feature Engineering Layer           │
+│  • Dimensionality Reduction: Drop education  │
+└──────────────────────────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────────┐
+│         Structural Realignment Layer         │
+│  • Binary Vectorization: male -> Sex_male     │
+└──────────────────────────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────────┐
+│          Stochastic Cleansing Layer          │
+│  • Row-wise NA Elimination                   │
+└──────────────────────────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────────┐
+│          Downstream Modeling Engine          │
+│  • Fully Prepared for RFC, XGBoost, LogReg   │
+└──────────────────────────────────────────────┘
